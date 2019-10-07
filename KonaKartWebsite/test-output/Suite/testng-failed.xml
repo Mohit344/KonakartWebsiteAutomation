@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.konacart.script.KonaCartScriptScenarioSecond">
+      <class name="com.konakart.script.KonaKartScriptScenarioFirst">
         <methods>
-          <include name="endReport"/>
-          <include name="validateContentInsideTab" invocation-numbers="0"/>
           <include name="configSetup"/>
+          <include name="endReport"/>
+          <include name="positiveScenario"/>
         </methods>
-      </class> <!-- com.konacart.script.KonaCartScriptScenarioSecond -->
+      </class> <!-- com.konakart.script.KonaKartScriptScenarioFirst -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

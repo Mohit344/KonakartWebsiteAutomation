@@ -9,24 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,104</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">22,462</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.konacart.script.KonaCartScriptScenarioSecond</td><td><a href="#m0">validateContentInsideTab</a></td><td rowspan="1">1570199405065</td><td rowspan="1">412</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.konacart.script.KonaCartScriptScenarioSecond</td><td><a href="#m1">konaCartClickImage</a></td><td rowspan="1">1570199398225</td><td rowspan="1">5613</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.konakart.script.KonaKartScriptScenarioFirst</td><td><a href="#m0">positiveScenario</a></td><td rowspan="1">1570464082124</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.konakart.script.KonaKartScriptScenarioFirst</td><td><a href="#m1">negativeScenario</a></td><td rowspan="1">1570464082211</td><td rowspan="1">3396</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.konacart.script.KonaCartScriptScenarioSecond#validateContentInsideTab</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>World&apos;s most advanced 7&quot; tablet
-1280x800 HD display with polarizing filter and anti-glare 
-technology for rich color and deep contrast from any viewing angle
-Exclusive Dolby audio and dual-driver stereo speakers 
-for immersive, virtual surround sound
-World&apos;s first tablet with dual-band, dual-antenna Wi-Fi for 40% faster downloads and streaming (compared to iPad 3)
-High performance 1.2 Ghz dual-core processor with Imagination PowerVR 3D graphics core for fast and fluid performance</td><td>Add your product specifications here. By default, the Enterprise 
-version of KonaKart displays the template based custom attributes.</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the XPath is null.
-	at org.openqa.selenium.By$ByXPath.&lt;init&gt;(By.java:339)
-	at org.openqa.selenium.By.xpath(By.java:92)
-	at com.konakart.helper.CommonUtility.scrollToElement(CommonUtility.java:213)
-	at com.konacart.script.KonaCartScriptScenarioSecond.validateContentInsideTab(KonaCartScriptScenarioSecond.java:29)
+<h2>Test</h2><h3 id="m0">com.konakart.script.KonaKartScriptScenarioFirst#positiveScenario</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: 2
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.konacart.script.KonaCartScriptScenarioSecond#konaCartClickImage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.konakart.util.ProviderData.provideData(ProviderData.java:49)
+	at com.konakart.dataprovider.DataProviderData.getDataOne(DataProviderData.java:22)
+	... 25 more
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.konakart.script.KonaKartScriptScenarioFirst#negativeScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Games</td><td>wwww</td><td>There are no available products.</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
