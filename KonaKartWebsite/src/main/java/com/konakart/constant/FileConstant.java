@@ -31,10 +31,10 @@ public class FileConstant {
     public static final String bloxkchain="http://www.atmecs.com/services/digital-life/blockchain/";
     public static final String urlexplore="http://www.atmecs.com/services/";
     
-    public static final String testdata="./src/test/resources/testdata/testdatafirst.xlsx";
-    public static  final String testdatasecond="./src/test/resources/testdata/testdatasecond.xlsx";
+    public static final String positiveScenario="./src/test/resources/testdata/positiveScenario.xlsx";
+    public static  final String negativeScenario="./src/test/resources/testdata/negativeScenario.xlsx";
    // public static final String  xpath="./src/test/resources/locators/xpath.properties";
-    public static final String testthird="./src/test/resources/testdata/testdatathird.xlsx";
+    public static final String productContent="./src/test/resources/testdata/productContent.xlsx";
     
     
     public static final String infotestdata="./src/test/resources/testdata/moreinfotestdata.xlsx";

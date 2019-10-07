@@ -16,9 +16,9 @@ public class DataProviderData {
 	 * Data provider 1
 	 * @return
 	 */
-		@DataProvider(name ="testdata" )
+		@DataProvider(name ="positiveScenario" )
 		public Object[][] getDataOne() {
-			ProviderData provideData = new ProviderData(FileConstant.testdata);
+			ProviderData provideData = new ProviderData(FileConstant.positiveScenario);
 			Object[][] getData = provideData.provideData();
 			return getData;
 		}
@@ -28,9 +28,9 @@ public class DataProviderData {
 		 * data provider 2
 		 * @return
 		 */
-		@DataProvider(name = "testdatasecond")
+		@DataProvider(name = "negativeScenario")
 		public Object[][] getDataSecond() {
-			ProviderData provideData = new ProviderData(FileConstant.testdatasecond);
+			ProviderData provideData = new ProviderData(FileConstant.negativeScenario);
 			Object[][] getData = provideData.provideData();
 			return getData;
 		}
@@ -39,9 +39,9 @@ public class DataProviderData {
 		 * Data provider 3
 		 * @return
 		 */
-			@DataProvider(name = "testdatathird")
+			@DataProvider(name = "productContent")
 			public Object[][] getDataThird() {
-				ProviderData provideData = new ProviderData(FileConstant.testthird);
+				ProviderData provideData = new ProviderData(FileConstant.productContent);
 				Object[][] getData = provideData.provideData();
 				return getData;
 			}

@@ -8,29 +8,43 @@ import com.konakart.helper.CommonUtility;
 import com.konakart.pages.CommonMethods;
 
 public class KonaKartScriptScenarioFirst  extends DriverClass{
+	
 	FindLocator loc = new FindLocator();
-	@Test(priority = 1,  dataProvider = "testdata", dataProviderClass = DataProviderData.class)
-
-		public void  positiveScenario(String game,String inputbox) {
-		System.out.println(game);
-		System.out.println(inputbox); 
-	CommonUtility.selectDropdown(driver, loc.getlocator("selectoption"),FileConstant.waittime, game);
-		CommonUtility.clickAndSendText(driver, loc.getlocator("inputbox"), FileConstant.waittime, inputbox);
+	@Test(priority = 1,  dataProvider = "positiveScenario", dataProviderClass = DataProviderData.class)
+/**
+ * 
+ * @param producttype
+ * @param productname
+ * @param productprice
+ */
+		public void  positiveScenario(String producttype,String productname,String productprice ) {
+		System.out.println(producttype);
+		System.out.println(productname); 
+	CommonUtility.selectDropdown(driver, loc.getlocator("selectoption"),FileConstant.waittime, producttype);
+		CommonUtility.clickAndSendText(driver, loc.getlocator("inputbox"), FileConstant.waittime, productname);
 		CommonUtility.clickElement(driver, loc.getlocator("clickonsearch"));
+		CommonMethods.validateName(loc, driver, productname);
+		CommonMethods.validatePrice(loc, driver, productprice);
 
 		
 			
 	}
-   @Test(priority = 2,  dataProvider = "testdatasecond", dataProviderClass = DataProviderData.class)
-		   public  void negativeScenario(String game,String inputbox,String message)
+   @Test(priority = 2,  dataProvider = "negativeScenario", dataProviderClass = DataProviderData.class)
+   /**
+    * 
+    * @param producttype
+    * @param productname
+    * @param message
+    */
+		   public  void negativeScenario(String producttype,String productname,String message)
 		   {
 	
 	   CommonUtility.wait(FileConstant.polling_time);
-	   System.out.println(game);
-	   System.out.println(inputbox);
+	   System.out.println(producttype);
+	   System.out.println(productname);
 	   System.out.println(message);
-	   CommonUtility.selectDropdown(driver, loc.getlocator("selectoption"), FileConstant.waittime, game);
-	   CommonUtility.clickAndSendText(driver, loc.getlocator("inputbox"), FileConstant.waittime, inputbox);
+	   CommonUtility.selectDropdown(driver, loc.getlocator("selectoption"), FileConstant.waittime, producttype);
+	   CommonUtility.clickAndSendText(driver, loc.getlocator("inputbox"), FileConstant.waittime, productname);
 	   CommonUtility.clickElement(driver, loc.getlocator("clickonsearch"));
 	   CommonUtility.scrollToElement(driver, loc.getlocator("showmessage"));
 	   

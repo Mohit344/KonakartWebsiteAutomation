@@ -21,14 +21,14 @@ public void konaKartClickImage()
 	
 	CommonUtility.scrollDownPage(driver,FileConstant.scrolling_resolution);
 }
-@Test(priority = 4,  dataProvider = "testdatathird", dataProviderClass = DataProviderData.class)
+@Test(priority = 4,  dataProvider = "productContent", dataProviderClass = DataProviderData.class)
 public void validateContentInsideTab(String productcontent, String specificationcontent)
 {
 	System.out.println(productcontent);
 	System.out.println(specificationcontent);
-	CommonMethods.validateProductContent(loc, driver, productcontent);
+	//CommonMethods.validateProductContent(loc, driver, productcontent);
 	CommonUtility.clickElement(driver, loc.getlocator("clickonspecification"));
-	CommonMethods.validateSpecificationContent(loc, driver, specificationcontent);
+//	CommonMethods.validateSpecificationContent(loc, driver, specificationcontent);
     CommonUtility.clickElement(driver, loc.getlocator("clickoncustomerreview"));
     CommonUtility.selectDropdown(driver, loc.getlocator("selectsortby"), 2,"Oldest first");
     ValidationMethodForReview.validateDate(1, loc, driver);
