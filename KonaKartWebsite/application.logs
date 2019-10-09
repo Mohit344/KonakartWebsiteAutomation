@@ -1,0 +1,41 @@
+2019-10-09 21:20:56 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:20:59 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:20:59 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:20:59 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:01 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:01 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:01 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:03 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:03 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:03 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:04 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:04 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:04 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:06 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:06 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:06 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:08 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:08 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:08 INFO  KonaKartScriptScenarioFirst:27 - select the option
+2019-10-09 21:21:10 INFO  KonaKartScriptScenarioFirst:33 - validated the name of product
+2019-10-09 21:21:10 INFO  KonaKartScriptScenarioFirst:35 - validated the price of product
+2019-10-09 21:21:12 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:21:15 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:21:18 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:21:20 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:21:23 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:21:25 INFO  KonaKartScriptScenarioFirst:59 - validated the error message
+2019-10-09 21:22:59 INFO  KonaKartScriptScenarioSecond:23 - click on the heroimage
+2019-10-09 21:22:59 INFO  KonaKartScriptScenarioSecond:36 - validated the product description and specification
+2019-10-09 21:23:01 INFO  KonaKartScriptScenarioSecond:46 - validate the rating and date in sorted order
+2019-10-09 21:23:03 INFO  KonaKartScriptScenarioSecond:51 - validated the date in sorted order
+2019-10-09 21:23:03 INFO  KonaKartScriptScenarioSecond:53 - validated the rating  in sorted order
+2019-10-09 21:23:03 INFO  KonaKartScriptScenarioSecond:46 - validate the rating and date in sorted order
+2019-10-09 21:23:05 INFO  KonaKartScriptScenarioSecond:51 - validated the date in sorted order
+2019-10-09 21:23:05 INFO  KonaKartScriptScenarioSecond:53 - validated the rating  in sorted order
+2019-10-09 21:23:05 INFO  KonaKartScriptScenarioSecond:46 - validate the rating and date in sorted order
+2019-10-09 21:23:08 INFO  KonaKartScriptScenarioSecond:51 - validated the date in sorted order
+2019-10-09 21:23:08 INFO  KonaKartScriptScenarioSecond:53 - validated the rating  in sorted order
+2019-10-09 21:23:08 INFO  KonaKartScriptScenarioSecond:46 - validate the rating and date in sorted order
+2019-10-09 21:23:10 INFO  KonaKartScriptScenarioSecond:51 - validated the date in sorted order
+2019-10-09 21:23:10 INFO  KonaKartScriptScenarioSecond:53 - validated the rating  in sorted order

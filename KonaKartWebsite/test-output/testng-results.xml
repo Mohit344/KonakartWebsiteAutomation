@@ -1,48 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36167" started-at="2019-10-08T01:37:33 IST" finished-at="2019-10-08T01:38:09 IST">
+  <suite name="Default suite" duration-ms="33891" started-at="2019-10-09T21:22:36 IST" finished-at="2019-10-09T21:23:10 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36167" started-at="2019-10-08T01:37:33 IST" finished-at="2019-10-08T01:38:09 IST">
+    <test name="Default test" duration-ms="33891" started-at="2019-10-09T21:22:36 IST" finished-at="2019-10-09T21:23:10 IST">
       <class name="com.konakart.script.KonaKartScriptScenarioSecond">
-        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="configSetup" is-config="true" duration-ms="17490" started-at="2019-10-08T01:37:33 IST" finished-at="2019-10-08T01:37:51 IST">
+        <test-method status="PASS" signature="configSetup()[pri:0, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="configSetup" is-config="true" duration-ms="17186" started-at="2019-10-09T21:22:36 IST" finished-at="2019-10-09T21:22:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configSetup -->
-        <test-method status="PASS" signature="konaKartClickImage()[pri:3, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="konaKartClickImage" duration-ms="5413" started-at="2019-10-08T01:37:51 IST" finished-at="2019-10-08T01:37:56 IST">
+        <test-method status="PASS" signature="konaKartClickImage()[pri:3, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="konaKartClickImage" duration-ms="5919" started-at="2019-10-09T21:22:53 IST" finished-at="2019-10-09T21:22:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- konaKartClickImage -->
-        <test-method status="PASS" signature="validateContentInsideTab(java.lang.String, java.lang.String)[pri:4, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateContentInsideTab" duration-ms="11849" started-at="2019-10-08T01:37:58 IST" data-provider="productContent" finished-at="2019-10-08T01:38:09 IST">
+        <test-method status="PASS" signature="validateContentInsideTab()[pri:4, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateContentInsideTab" duration-ms="489" started-at="2019-10-09T21:22:59 IST" finished-at="2019-10-09T21:22:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContentInsideTab -->
+        <test-method status="PASS" signature="validateProductReview(java.lang.String)[pri:5, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateProductReview" duration-ms="2347" started-at="2019-10-09T21:23:01 IST" data-provider="productReview" finished-at="2019-10-09T21:23:03 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[World's most advanced 7" tablet
-1280x800 HD display with polarizing filter and anti-glare 
-technology for rich color and deep contrast from any viewing angle
-Exclusive Dolby audio and dual-driver stereo speakers 
-for immersive, virtual surround sound
-World's first tablet with dual-band, dual-antenna Wi-Fi for 40% faster downloads and streaming (compared to iPad 3)
-High performance 1.2 Ghz dual-core processor with Imagination PowerVR 3D graphics core for fast and fluid performance]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Add your product specifications here. By default, the Enterprise 
-version of KonaKart displays the template based custom attributes.]]>
+                <![CDATA[Oldest first]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateContentInsideTab -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="endReport" is-config="true" duration-ms="883" started-at="2019-10-08T01:38:09 IST" finished-at="2019-10-08T01:38:10 IST">
+        </test-method> <!-- validateProductReview -->
+        <test-method status="PASS" signature="validateProductReview(java.lang.String)[pri:5, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateProductReview" duration-ms="2221" started-at="2019-10-09T21:23:03 IST" data-provider="productReview" finished-at="2019-10-09T21:23:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Most recent first]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductReview -->
+        <test-method status="PASS" signature="validateProductReview(java.lang.String)[pri:5, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateProductReview" duration-ms="2302" started-at="2019-10-09T21:23:05 IST" data-provider="productReview" finished-at="2019-10-09T21:23:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rating: high to low]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductReview -->
+        <test-method status="PASS" signature="validateProductReview(java.lang.String)[pri:5, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="validateProductReview" duration-ms="2044" started-at="2019-10-09T21:23:08 IST" data-provider="productReview" finished-at="2019-10-09T21:23:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rating: low to high]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductReview -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.konakart.script.KonaKartScriptScenarioSecond@56aac163]" name="endReport" is-config="true" duration-ms="818" started-at="2019-10-09T21:23:10 IST" finished-at="2019-10-09T21:23:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.konakart.script.KonaKartScriptScenarioSecond -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

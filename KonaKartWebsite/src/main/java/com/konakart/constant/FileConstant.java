@@ -15,9 +15,10 @@ public class FileConstant {
     public static final int polling_time=1000;
     public static final int waittime=2;
     public static final int scrolling_resolution=800;
-    
+    public static final String  EXTENT_CONFIG="./extent-config.xml";
+    public static final String FAILED_SCREENSHOT_FILE="./FailedTestScreenShots";
     public static final String VALIDATION_FILE="./src/test/resources/testdata/validation.properties";
-    
+    public static final String   EXTENT_REPORT_FILE= "./test-output/ExtentReport.html";
     public static final String config="./src/test/resources/testdata/config.properties";
     public static final String findlocator="./src/test/resources/locators/xpath.properties";
     public static final String  chromeexe="./lib/chromedriver.exe";
@@ -35,7 +36,7 @@ public class FileConstant {
     public static  final String negativeScenario="./src/test/resources/testdata/negativeScenario.xlsx";
    // public static final String  xpath="./src/test/resources/locators/xpath.properties";
     public static final String productContent="./src/test/resources/testdata/productContent.xlsx";
-    
+    public static final String productReview="./src/test/resources/testdata/productReview.xlsx";
     
     public static final String infotestdata="./src/test/resources/testdata/moreinfotestdata.xlsx";
     

@@ -45,19 +45,19 @@ public class DataProviderData {
 				Object[][] getData = provideData.provideData();
 				return getData;
 			}
-//		
-//			/**
-//			 * Data provider 4
-//			 * @return
-//			 */
-//				@DataProvider(name = "testdata4")
-//				public Object[][] getDataForth() {
-//					ProviderData provideData = new ProviderData(FileConstant.testdata4);
-//					Object[][] getData = provideData.provideData();
-//					return getData;
-//				}
-//		
-//		
-//		
+		
+			/**
+			 * Data provider 4
+			 * @return
+			 */
+				@DataProvider(name = "productReview")
+				public Object[][] getDataForth() {
+					ProviderData provideData = new ProviderData(FileConstant.productReview);
+					Object[][] getData = provideData.provideData();
+					return getData;
+				}
+		
+		
+		
 		
 }

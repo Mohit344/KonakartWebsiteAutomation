@@ -14,29 +14,29 @@ import com.konakart.helper.CommonUtility;
 
 public class ValidationMethodForReview {
 	
-	//public static void validateRating(int sortOrder,FindLocator loc,WebDriver driver) {
-//		
-//		
-//	 int index=1;
-//	 List<WebElement> elements= CommonUtility.getElementsList(driver,loc.getlocator("reviewbox"));	
-//		int loopCount = elements.size();
-//	while (index < loopCount) {
-//	int count_star1=CommonUtility.getElementsList(driver, loc.getlocator("rating").replace("xxxx",index + "")).size();
-//	int count_star2=CommonUtility.getElementsList(driver, loc.getlocator("rating").replace("xxxx", index + "")).size();		
-//	int difference = count_star1 - count_star2;
-//
-//			if (sortOrder == 3) {
-//			Assert.assertTrue(difference >= 0);
-//			}
-//			if (sortOrder == 4) {
-//			Assert.assertTrue(difference <= 0);
-//			}
-//			}	
-//		
-//	}
-//	
-//	
-//	
+	public static void validateRating(int sortOrder,FindLocator loc,WebDriver driver) {
+		
+		
+	 int index=1;
+	 List<WebElement> elements= CommonUtility.getElementsList(driver,loc.getlocator("reviewbox"));	
+		int loopCount = elements.size();
+	while (index < loopCount) {
+	int count_star1=CommonUtility.getElementsList(driver, loc.getlocator("rating").replace("xxxx",index + "")).size();
+	int count_star2=CommonUtility.getElementsList(driver, loc.getlocator("rating").replace("xxxx", index+1 + "")).size();		
+	int difference = count_star1 - count_star2;
+
+			if (sortOrder == 3) {
+			Assert.assertTrue(difference >= 0);
+			}
+			if (sortOrder == 4) {
+			Assert.assertTrue(difference <= 0);
+			}
+			}	
+		
+	}
+	
+	
+	
 	
 	
 	

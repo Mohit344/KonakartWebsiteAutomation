@@ -9,7 +9,7 @@ import com.konakart.util.ReadPropertiesFile;
 public class ValidatingData {
 	
 	static Properties Property;
-
+	
 	/**
 	 * In this constructor, reading of property file is being done
 	 */
