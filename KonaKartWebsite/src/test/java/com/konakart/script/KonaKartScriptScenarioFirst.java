@@ -6,6 +6,7 @@ import com.konakart.constant.FileConstant;
 import com.konakart.constant.FindLocator;
 import com.konakart.dataprovider.DataProviderData;
 import com.konakart.driver.DriverClass;
+import com.konakart.extentReports.ExtentReport;
 import com.konakart.helper.CommonUtility;
 import com.konakart.pages.CommonMethods;
 
@@ -27,6 +28,7 @@ public class KonaKartScriptScenarioFirst  extends DriverClass{
 		System.out.println(productname); 
 		Logger log = Logger.getLogger(KonaKartScriptScenarioFirst.class);
 		log.info("select the option");
+		ExtentReport.reportLog("positiveScenario", "this positiveScenario method failed ");
 		CommonUtility.selectDropdown(driver, loc.getlocator("selectoption"),FileConstant.waittime, producttype);
 		CommonUtility.clickAndSendText(driver, loc.getlocator("inputbox"), FileConstant.waittime, productname);
 		CommonUtility.clickElement(driver, loc.getlocator("clickonsearch"));
@@ -48,6 +50,7 @@ public class KonaKartScriptScenarioFirst  extends DriverClass{
 	public  void negativeScenario(String producttype,String productname,String message)
 	{
 		Logger log = Logger.getLogger(KonaKartScriptScenarioFirst.class);
+		ExtentReport.reportLog("negativeScenario", "this negativeScenario method failed ");
 		CommonUtility.wait(FileConstant.polling_time);
 		System.out.println(producttype);
 		System.out.println(productname);

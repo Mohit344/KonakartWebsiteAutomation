@@ -8,6 +8,7 @@ import com.konakart.constant.FindLocator;
 import com.konakart.dataprovider.DataProviderData;
 import com.konakart.dataprovider.ValidatingData;
 import com.konakart.driver.DriverClass;
+import com.konakart.extentReports.ExtentReport;
 import com.konakart.helper.CommonUtility;
 import com.konakart.pages.CommonMethods;
 import com.konakart.pages.ValidationMethodForReview;
@@ -21,6 +22,8 @@ public class KonaKartScriptScenarioSecond extends DriverClass {
 	{ Logger log = Logger.getLogger(KonaKartScriptScenarioSecond.class);
 		CommonUtility.clickElement(driver,loc.getlocator("clickonImage") );
        log.info("click on the heroimage");
+		ExtentReport.reportLog("konaKartClickImage", "this konaKartClickImage method failed ");
+
 		CommonUtility.scrollDownPage(driver,FileConstant.scrolling_resolution);
 
 
@@ -34,6 +37,8 @@ public class KonaKartScriptScenarioSecond extends DriverClass {
 		Logger log = Logger.getLogger(KonaKartScriptScenarioSecond.class);
 		CommonMethods.pageTitleValidation(driver, loc);
 		log.info("validated the product description and specification");
+		ExtentReport.reportLog("validateContentInsideTab", "this validateContentInsideTab method failed ");
+
 		CommonUtility.clickElement(driver, loc.getlocator("reviewtab"));
 
 	}
@@ -45,6 +50,7 @@ public class KonaKartScriptScenarioSecond extends DriverClass {
 		Logger log = Logger.getLogger(KonaKartScriptScenarioSecond.class);
 		log.info("validate the rating and date in sorted order");
 		CommonUtility.selectDropdown(driver, loc.getlocator("selectsortby"), 3, sortby );
+		ExtentReport.reportLog("validateProductReview", "this validateProductReview method failed ");
 
 		// CommonUtility.wait(1000);
 		ValidationMethodForReview.validateDate(1, loc, driver);

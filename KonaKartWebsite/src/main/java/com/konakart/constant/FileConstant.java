@@ -17,6 +17,9 @@ public class FileConstant {
     public static final int scrolling_resolution=800;
     public static final String  EXTENT_CONFIG="./extent-config.xml";
     public static final String FAILED_SCREENSHOT_FILE="./FailedTestScreenShots";
+    
+    public static final String extentreport="./src/test/resources/extent.html";
+    
     public static final String VALIDATION_FILE="./src/test/resources/testdata/validation.properties";
     public static final String   EXTENT_REPORT_FILE= "./test-output/ExtentReport.html";
     public static final String config="./src/test/resources/testdata/config.properties";
